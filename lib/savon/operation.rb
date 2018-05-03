@@ -83,6 +83,7 @@ module Savon
     end
 
     def build_request(builder)
+      byebug
       @locals[:soap_action] ||= soap_action
       @globals[:endpoint] ||= endpoint
 
