@@ -6,6 +6,7 @@ gem "httpclient", "~> 2.7.1"
 gem "simplecov", :require => false
 gem "coveralls", :require => false
 gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+gem "nokogiri"
 
 platform :rbx do
   gem 'racc'
