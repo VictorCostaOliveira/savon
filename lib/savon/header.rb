@@ -18,7 +18,7 @@ module Savon
 
       @globals        = globals
       @locals         = locals
-
+      byebug
       @header = build
     end
 
